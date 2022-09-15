@@ -1,0 +1,9 @@
+{
+	"prefix": "+",
+	"token": "DISCORD_BOT_TOKEN",
+	"serverID": "YOUR_DISCORD_SERVER_ID",
+	"name": "uLicense",
+	"embed_color": "BLUE",
+	"databaseURL": "YOUR_DATABASE_URL",
+	"encrypt_secret": "YOUR_ENCRYPT_SECRET"
+}

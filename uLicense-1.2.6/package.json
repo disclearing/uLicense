@@ -1,0 +1,17 @@
+{
+	"name": "start",
+	"version": "1.0.0",
+	"description": "Thanks for purchasing uLicense! <3",
+	"main": "index.js",
+	"scripts": {
+		"dashboard": "cd dashboard && nodemon server.js",
+		"discordbot": "cd discord && nodemon app.js",
+		"start": "concurrently \"npm run dashboard\" \"npm run discordbot\" "
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.7"
+	}
+}
